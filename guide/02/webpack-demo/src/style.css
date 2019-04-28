@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url("./iconfont.woff2") format("woff2"), url("./iconfont.woff") format("woff");
+}
+
+.hello{
+  color: red;
+  background: url('./icon.png')
+}
