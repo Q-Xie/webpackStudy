@@ -3,8 +3,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 
 const config = {
+  mode: 'development',
   entry: {
-    main: './src/index.js'
+    app: './src/index.js'
   },
   output: {
     filename: '[name].bundle.js',
